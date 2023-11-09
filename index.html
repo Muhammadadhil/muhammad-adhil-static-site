@@ -15,7 +15,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,600;0,700;0,800;0,900;1,700&family=Poppins:wght@500&family=Ramaraja&display=swap" rel="stylesheet">
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 </head>
 <body>
@@ -78,7 +78,8 @@
 						About Me<span class="dot-1">.</span></h3>
 					<span class="text-left">
             <h5 class="sub-heading1 text-center mb-5">My introduction.</h5>
-					<p class="about-content">Hi iam Muhammad adhil , Iam a bcom student and iam interested in programming and designing </p>
+					<p class="about-content">Hi iam Muhammad adhil, iam Full Stack developer with a passion for solving complex problem.
+             I have 1 year of experience in software industry</p>
 
         <div class="row about-section-2">
           
@@ -104,7 +105,7 @@
 				   	</span>
           </div>
           <div class="col-md-4 col-8 mt-3">
-            <img src="images/aadhi-new.png" class="about-image img-fluid" alt="">
+            <img src="./images/aadhi-official.jpg" class="about-image img-fluid" alt="">
           </div>
 				</div>
 			
@@ -175,7 +176,6 @@
 				 </div>
 			 </div>
 	 </section>
-   
    <!-- //content-6-section -->
   <section id="services">
 	  <div class=" container services">
@@ -250,125 +250,112 @@
     </div>
   </section>
   
-  <section class="contact-section " id="contact">
-       <div class="container">
-         <div class="container py-lg-3">
-           <h3 class="  hny-title text-center mt-5 ">contact me<span class="dot-1">.</span></h3>
-           <h5 class="sub-heading1 text-center mb-5">Get in touch.</h5>
+<section class="contact-section " id="contact">
+    <div class="container">
+      <div class="container py-lg-3">
+        <h3 class="  hny-title text-center mt-5 ">contact me<span class="dot-1">.</span></h3>
+        <h5 class="sub-heading1 text-center mb-5">Get in touch.</h5>
+      </div>
+
+ <div class="row">
+   <!--Grid column-->
+   <div class="col-md-3 text-center">
+     <ul class="list-unstyled mb-0">
+         <li><i class="fas fa-map-marker-alt fa-2x"></i>
+             <p>Calicut,kerala </p>
+         </li>
+
+         <li><i class="fas fa-phone mt-4 fa-2x"></i>
+             <p>+91 7994617934 </p>
+         </li>
+
+         <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+             <p>muhammadadhil934@gmail.com</p>
+         </li>
+     </ul>
+  </div>
+  <!--Grid column-->
+   <!--Grid column-->
+     <div class="col-md-9 mb-md-0 mb-5">
+       <form id="submit-form" action="">
+         <div class="row-1 row ">
+           <!-- <div class="row"> -->
+             <div class="col-md-6 mb-3">
+               <div class="md-form">
+                 <input type="text" id="name" name="name" class="form-control " placeholder="Your name">
+               </div>
+               
+             <!-- </div> -->
+           </div> 
+           <!-- <div class="row"> -->
+             <div class="col-md-6 mb-3">
+               <div class="md-form">
+                 <input type="email" id="email" name="email" class="form-control " placeholder="email">
+               </div>
+               
+             </div>
+           <!-- </div> -->
          </div>
-
-    <div class="row">
-      <!--Grid column-->
-      <div class="col-md-3 text-center">
-        <ul class="list-unstyled mb-0">
-            <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                <p>Calicut,kerala </p>
-            </li>
-
-            <li><i class="fas fa-phone mt-4 fa-2x"></i>
-                <p>+91 7994617934 </p>
-            </li>
-
-            <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                <p>muhammadadhil934@gmail.com</p>
-            </li>
-        </ul>
+         <div class="row">
+           <div class="col-md-6  mb-3">
+             <div class="md-form">
+               <input type="tel" id="number" name="phone" class="form-control " placeholder="telephone">
+             </div>
+             
+           </div>
+         </div>
+         <div class="row">
+           <div class="col-md-12 mb-3">
+             <div class="md-form">
+               <input type="text" id="subject" name="subject" class="form-control" placeholder="subject">
+             </div>
+           </div>
+         </div>
+         <div class="row">
+           <div class="col-md-12 mb-3">
+             <div class="md-form">
+               <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" placeholder="Message"></textarea>
+             </div>
+           </div>
+         </div>
+         <div class="submit-button mt-4  mb-5 text-center">
+           <button class="btn btn-dark " type="submit" value="submit">submit here</button>
+         </div>
+       
+         </form>
      </div>
-     <!--Grid column-->
-
-      <!--Grid column-->
-      <div class="col-md-9 mb-md-0 mb-5">
-          <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-              <!--Grid row-->
-              <div class="row">
-
-                  <!--Grid column-->
-                  <div class="col-md-6">
-                      <div class="md-form mb-0">
-                          <input type="text" id="name" name="name" class="form-control" placeholder="Your name">
-                          <br>
-                      </div>
-                  </div>
-                  <!--Grid column-->
-
-                  <!--Grid column-->
-                  <div class="col-md-6">
-                      <div class="md-form mb-0">
-                          <input type="text" id="email" name="email" class="form-control" placeholder="E-mail">
-                          <br>
-                      </div>
-                  </div>
-                  <!--Grid column-->
-
-              </div>
-              <!--Grid row-->
-
-              <!--Grid row-->
-              <div class="row">
-                  <div class="col-md-12">
-                      <div class="md-form mb-0">
-                          <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject">
-                          <br>
-                      </div>
-                  </div>
-              </div>
-              <!--Grid row-->
-
-              <!--Grid row-->
-              <div class="row">
-
-                  <!--Grid column-->
-                  <div class="col-md-12">
-
-                      <div class="md-form">
-                          <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" placeholder="Message"></textarea>
-                          <br><br>
-                      </div>
-
-                  </div>
-              </div>
-              <!--Grid row-->
-            </form>
-          <div class="text-center text-md-right">
-              <button type="button" class="btn btn-dark" onclick="document.getElementById('contact-form').submit();">Send</button>
-          </div>
-          <div class="status my-5"></div>
-      </div>
-      <!--Grid column-->
-
-      </div>
-    </div>
-  </section>
-<!--Section: Contact v.2-->
-
-<!-- footer -->
+   <!--Grid column-->
+   </div>
+ </div>
+</section>
 <footer class="w3l-footer-16 ">
-    <div class="footer-content py-lg-5 py-4 text-center">
-        <div class="container">
-            <div class="row copy-right">
-                <div class="col-lg-6 footer-left text-lg-left text-center">
-                    <h6>muhammad adhil © 2022 
-                      <p id="footer-p">Design by <a href="http://w3layouts.com">W3layouts.</a></p>
-                </div>
-                <div class="col-lg-6 footer-right text-lg-right text-center">
-                    <ul class="footer-gd-16">
-                        <li><a href="#home">Terms</a></li>
-                        <li><a href="#home">Support</a></li>
-                        <li><a href="#home">Privacy</a></li>
-                        <li><a href="#home">Contact</a></li>
-                    </ul>
-                    <div class="share-icons-footer ml-lg-4">
-                        <a href="#"><span class="fa fa-facebook"></span></a>
-                        <a href="#"><span class="fa fa-instagram"></span></a>
-                        <a href="#"><span class="fa fa-linkedin"></span></a>
-                    </div>
-                </div>
-            </div>
-            <button onclick="topFunction()" id="movetop" title="Go to top">
-                <span class="fa fa-angle-up"></span>
-            </button>
-        </div>
-    </div>
+  <div class="footer-content py-lg-5 py-4 text-center">
+      <div class="container">
+          <div class="row copy-right">
+              <div class="col-lg-6 footer-left text-lg-left text-center">
+                  <h6>muhammad adhil © 2023 
+                    <p id="footer-p">Design by <a href="http://w3layouts.com">W3layouts.</a></p>
+              </div>
+              <div class="col-lg-6 footer-right text-lg-right text-center">
+                  <ul class="footer-gd-16">
+                      <li><a href="#home">Terms</a></li>
+                      <li><a href="#home">Support</a></li>
+                      <li><a href="#home">Privacy</a></li>
+                      <li><a href="#home">Contact</a></li>
+                  </ul>
+                  <div class="share-icons-footer ml-lg-4">
+                      <a href="#"><span class="fa fa-facebook"></span></a>
+                      <a href="#"><span class="fa fa-instagram"></span></a>
+                      <a href="#"><span class="fa fa-linkedin"></span></a>
+                  </div>
+              </div>
+          </div>
+          <button onclick="topFunction()" id="movetop" title="Go to top">
+              <span class="fa fa-angle-up"></span>
+          </button>
+      </div>
+  </div>
+</footer>
 
     <!-- move top -->
     <script>
@@ -399,13 +386,33 @@
             })
         });
     </script>
-</footer>
-<!-- //footer -->
+
+<!-- clear the page after submit  -->
+<script>
+  $("#submit-form").submit((e)=>{
+      e.preventDefault()
+      $.ajax({
+          url:"https://script.google.com/macros/s/AKfycbzu_DsNu9lPtGbsUsdvT4nV8LMm9gPclhcjxF08RINxZw3eDDgY29EYCe4y9RLDKLoA-A/exec",
+          data:$("#submit-form").serialize(),
+          method:"post",
+          success:function (response){
+              alert("Form submitted successfully")
+              // window.location.reload();
+              //window.location.href="https://google.com"
+          },
+          error:function (err){
+              alert("Something Error")
+
+          }
+      })
+  })
+</script>
+
 </body>
 <script  src="https://kit.fontawesome.com/fccca442f1.js" crossorigin="anonymous"></script>
 </html>
 
-<script src="js/jquery-3.3.1.min.js"></script>
+<!-- <script src="js/jquery-3.3.1.min.js"></script> -->
 
 <script>
   $(function () {
